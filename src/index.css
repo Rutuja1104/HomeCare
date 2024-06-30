@@ -1,0 +1,32 @@
+body {
+    background: #fff !important;
+}
+
+.page-content::-webkit-scrollbar,
+.navbar-nav::-webkit-scrollbar{
+    width: 5px; /* width of the entire scrollbar */
+}
+.steps-container::-webkit-scrollbar {
+    height: 5px; /* height of the entire scrollbar */
+}
+
+.page-content::-webkit-scrollbar-track,
+.navbar-nav::-webkit-scrollbar-track,
+.steps-container::-webkit-scrollbar-track {
+    background: rgb(246, 245, 242); /* color of the tracking area */
+}
+
+.page-content::-webkit-scrollbar-thumb,
+.navbar-nav::-webkit-scrollbar-thumb,
+.steps-container::-webkit-scrollbar-thumb {
+    background-color: rgb(222, 222, 241); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(210, 204, 193); /* creates padding around scroll thumb */
+}
+
+.page-content,
+.navbar-nav,
+.steps-container {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: rgb(222, 222, 241) rgb(210, 204, 193); /* scroll thumb and track */
+}

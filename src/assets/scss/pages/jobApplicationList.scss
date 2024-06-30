@@ -1,0 +1,93 @@
+.displayFlexContainer{
+    display: flex;
+    flex-wrap: wrap;  
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.cardStyle{
+    min-width:360px;
+    max-width: 550px;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 6px gray;
+    position: relative;
+}
+
+.flexSpace{
+    margin-top: 10px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.labelStyle{
+    color:#0d6efd;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.jobPostCardButton {
+    display: flex;
+    align-items: center;
+    background: var(--primary-shades-90, #087D9E);
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.jobPostCardTitle{
+    font-size: 26px;
+    font-family: Figtree;
+    font-weight: 500;
+}
+
+.jobPostCardType{
+    background: var(--primary-10, #D7F2FF);
+    border-radius: var(--borderRadius, 4px);
+    display: flex;
+    padding: 2px var(--1, 8px);
+    align-items: center;
+    gap: 10px;
+}
+
+.positionRolelabelStyle{
+    color: var(--grey-80, var(--grey-80, #565656));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.positionRolelabelValueStyle{
+    color: #000;
+    /* Body/Body 5/Medium */
+    font-family: Figtree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.12px;
+}
+.jobPostTitle{
+    font-size: 26px;
+    font-family: Figtree;
+    font-weight: 600;
+    padding-left: 23px;
+}
+.copyIconPosition{
+    text-align: end;
+    position: relative;
+    bottom: 9px;
+}

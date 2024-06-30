@@ -1,0 +1,14 @@
+.modal-buttons {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.view-job-post-modal {
+    .discription {
+        max-height: calc(100vh - 590px);
+        overflow-y: scroll;
+    }
+}
+// .discription::-webkit-scrollbar {
+//     width: 0.5em;
+// }

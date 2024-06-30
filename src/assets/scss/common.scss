@@ -1,0 +1,128 @@
+.cursor {
+  cursor: pointer;
+}
+
+.MuiInputBase-formControl {
+  height: 40px !important;
+  border-radius: 10px !important;
+}
+
+.header-label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.045px;
+  color: rgb(88, 87, 87);
+}
+
+.breadcrumb {
+  padding: 4px 24px !important;
+  background-color: #f4f4f4 !important;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.014px;
+  line-height: 140%;
+  color: #393939;
+}
+
+.breadcrumb-link:hover {
+  color: #393939 !important;
+}
+
+.button-width {
+  padding: 10px 58px !important;
+  cursor: pointer;
+}
+
+.signature-canvas {
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.input-container {
+  display: grid;
+  gap: 10px;
+}
+
+.custom-collapse {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--grey-10, #f8f8f8);
+  border-radius: var(--1, 8px);
+  border: 1px solid #f1efef;
+  cursor: pointer;
+}
+
+.collapse-container {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+.collapse-border {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.document-name {
+  color: var(--grey-90, var(--grey-90, #393939));
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.035px;
+}
+
+.text-area:focus {
+  outline: none;
+}
+
+button:disabled {
+  background: var(--action-disabled-background, rgba(0, 0, 0, 0.12));
+  border: 1px solid #d1cccc;
+  color: rgb(99, 104, 102);
+}
+
+.demo-signature-box {
+  margin-top: 30px;
+  width: 250px;
+  height: 120px;
+  border-radius: var(--1, 8px);
+  border: 1px solid var(--grey-40, #d2d2d2);
+}
+
+.align-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0 80px;
+}
+
+.base64-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.base-64-image {
+  border-radius: var(--1, 8px);
+  border: 1px solid var(--grey-40, #d2d2d2);
+  padding: 10px 12px;
+}
+
+.btn-secondary {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.iframe-pdf-view {
+  width: 100%;
+  min-height: 75vh;
+}

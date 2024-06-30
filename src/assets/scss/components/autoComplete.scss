@@ -1,0 +1,23 @@
+.auto-complete-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+
+  .auto-complete-input {
+    padding: 10px 12px;
+    width: 100%;
+    border-radius: var(--1, 8px);
+    border: 1px solid var(--grey-40, #d2d2d2);
+    flex: 1 1 0%;
+    max-height: 46px;
+  }
+
+  .auto-complete-input-error-styles {
+    border: 1px solid var(--grey-40, #e05243);
+    border-radius: var(--1, 8px);
+  }
+}
+.pac-container{
+  z-index: 9999 !important;
+}

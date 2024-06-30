@@ -1,0 +1,27 @@
+.tabs-with-icons {
+  column-gap: 30px;
+  margin-bottom: 10px !important;
+}
+
+.nav-item-with-icons {
+  padding: 0 15px !important;
+  border-radius: var(--1, 8px);
+  border: 1px solid var(--grey-30, #e9e9e9);
+  background: var(--White, #fff);
+}
+
+.nav-link-with-icon {
+  color: var(--grey-90, #393939) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  justify-content: center !important;
+  column-gap: 10px;
+  align-items: flex-start !important;
+}
+
+.nav-item-with-icons.active {
+  border-radius: var(--1, 8px);
+  border: 1px solid #820072;
+  background: rgba(244, 227, 238, 0.2);
+}

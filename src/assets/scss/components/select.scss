@@ -1,0 +1,15 @@
+.react-select-dropdown {
+  height: 48px;
+}
+
+.react-select-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.react-select-dropdown-error-styles {
+    border: 1px solid var(--grey-40, #e05243);
+    border-radius: var(--1, 8px);
+}

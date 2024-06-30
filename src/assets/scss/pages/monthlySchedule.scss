@@ -1,0 +1,59 @@
+.monthly-schedule-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    .pending {
+        background-color: #93370d;
+    }
+    .complete {
+        background-color: #05603a;
+    }
+    .error {
+        background-color: #e9e9e9;
+    }
+    .icon-container {
+        gap: 20px;
+    }
+}
+.rectangle-style {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    // align-items: center;
+}
+.monthly-schedule-component {
+    // .custom-calendar-view{
+    .custom-calendar-filters {
+        border-radius: var(--1, 8px);
+        border: 1px solid var(--Grey-30, #e9e9e9);
+        padding: 10px;
+        width: 30%;
+        margin-right: 10px;
+    }
+    .full-calender-view {
+        width: 100%;
+    }
+    // }
+
+    .fc-media-screen {
+        width: 100%;
+    }
+}
+
+.schedule-button-section {
+    width: 52%;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .primary-btn {
+        padding: 10px 18px;
+        height: 38px;
+        align-items: center;
+        display: flex;
+    }
+}

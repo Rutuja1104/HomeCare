@@ -1,0 +1,82 @@
+.episode-patient-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient-details {
+  display: flex;
+  margin-top: 28px;
+  column-gap: 16px;
+}
+
+.patient-basic-details-card {
+  padding: var(--3, 24px);
+  border-radius: var(--1, 8px);
+  border: 1px solid var(--grey-30, #e9e9e9);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.04);
+}
+
+.patient-basic-info {
+  display: flex;
+  column-gap: 32px;
+  width: inherit;
+  min-width: 40%;
+}
+
+.patient-professional-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.patient-label-value-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-basis: calc(25% - 16px);
+}
+
+.patient-info-label {
+  color: var(--grey-70, #727272);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.patient-value-label-pair {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient-info-value {
+  color: var(--grey-90, #393939);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media (min-width: 200px) and (max-width: 1400px) {
+  .patient-details {
+    display: block;
+  }
+
+  .patient-basic-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .patient-value-label-pair {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.assign-episode-img {
+  width: 100%;
+  background: none;
+  box-shadow: none;
+}

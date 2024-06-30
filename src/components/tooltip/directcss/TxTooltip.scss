@@ -1,0 +1,11 @@
+.custom-tooltip {
+  .arrow::before {
+    border-top-color: #EFF5FD !important;
+  }
+
+  .tooltip,
+  .tooltip-inner {
+    display: inline-block;
+    width: auto;
+  }
+}

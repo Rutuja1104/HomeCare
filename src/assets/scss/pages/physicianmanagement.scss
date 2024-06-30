@@ -1,0 +1,23 @@
+.f2f-container {
+    .f2f-for-one {
+        border: 1px solid;
+        padding: 20px;
+        margin-top: 10px;
+        .information {
+            display: flex;
+            justify-content: space-between;
+            .block {
+                width: 20%;
+            }
+        }
+    }
+}
+
+
+.physician-order-container{
+    .physician-order-for-one{
+        border: 1px solid;
+        padding: 20px;
+        margin-top: 10px;
+    }
+}

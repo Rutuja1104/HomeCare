@@ -1,0 +1,23 @@
+.rounded-circle {
+  height: 30px;
+  width: 30px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.avatar-initials {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-title {
+  align-items: center;
+  background-color: white;
+  color: white;
+  display: flex;
+  font-weight: 500;
+  color: #005c71;
+  justify-content: center;
+}

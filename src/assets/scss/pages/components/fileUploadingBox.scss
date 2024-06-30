@@ -1,0 +1,42 @@
+//
+.file-upload-container {
+    border: 2px dashed #ccc;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    .icon-container{
+        margin-top: 10px;
+    }
+    .file-upload-container.dragging {
+        background-color: #f0f0f0;
+    }
+    .info-conntainer{
+        margin-left: 10px;
+    }
+  }
+  .list-of-documents {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+      ul {
+          list-style: none;
+          padding: 0;
+      }
+
+      li {
+          display: flex;
+          align-items: center;
+          margin: 5px 0;
+          margin-left: 5px;
+      }
+      
+
+      span {
+          margin-left: 10px;
+          color: #005C71;
+      }
+  }

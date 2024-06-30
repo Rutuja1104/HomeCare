@@ -1,0 +1,37 @@
+.episode-listing-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.episode-filter {
+    display: flex;
+    width: 40%;
+}
+
+.episode-filter-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+
+.episode-vital-buttons {
+    width: 30%;
+}
+
+.vital-signs-table{
+    width: 101%
+}
+@media (min-width: 900px) and (max-width: 1800px) {
+    .episode-vital-buttons {
+        width: 50%;
+    }
+    .vital-signs-table{
+        width: 130%
+    }
+}
+@media (min-width: 200px) and (max-width: 900px) {
+    .episode-vital-buttons {
+        width: 70%;
+    }
+}

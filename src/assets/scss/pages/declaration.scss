@@ -1,0 +1,14 @@
+.header-text {
+  display: flex;
+  column-gap: 355px;
+  border-radius: var(--1, 8px);
+  background: var(--grey-10, #f8f8f8);
+  padding: 12px 0px 12px var(--3, 24px);
+  align-items: center;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

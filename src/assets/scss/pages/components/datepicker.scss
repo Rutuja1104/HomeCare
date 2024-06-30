@@ -1,0 +1,22 @@
+.customDatePicker {
+  overflow: hidden;
+  min-width: 100px;
+}
+.MuiStack-root {
+  padding-top: 0 !important;
+}
+
+.flatpickr-current-month input.cur-year {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  padding: 5px;
+}
+
+.flatpickr-months {
+  background: antiquewhite !important;
+  padding: 2px !important;
+  min-height: 42px !important;
+}
+
+.numInputWrapper span {
+  opacity: 1 !important;
+}

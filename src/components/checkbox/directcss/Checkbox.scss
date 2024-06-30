@@ -1,0 +1,25 @@
+.custom-checkbox {
+    &__checkmark {
+        fill: none;
+        left: 3px;
+        top: 4px;
+        position: absolute;
+        visibility: hidden;
+        stroke-width: 1px;
+    }
+
+    &.unchecked {
+        background: #fff !important;
+        border: 1px solid #676767;
+    }
+
+    input[type="checkbox"] {
+        &:checked ~ .custom-checkbox__checkmark {
+            visibility: visible;
+        }
+
+        &:disabled {
+            cursor: not-allowed !important;
+        }
+    }
+}

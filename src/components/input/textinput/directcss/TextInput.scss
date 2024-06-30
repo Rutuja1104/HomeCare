@@ -1,0 +1,28 @@
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+
+input:focus {
+  outline: none;
+  //   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.hide-spinners {
+  /* Chrome, Safari, Edge, Opera */
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+input:disabled {
+  cursor: not-allowed;
+}

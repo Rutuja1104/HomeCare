@@ -1,0 +1,105 @@
+.view-patient-container {
+    .view-patient-details {
+        .text {
+            color: #565656;
+        }
+        display: flex;
+        justify-content: space-between;
+        .personal-info-1 {
+            border: 1px solid #e9e9e9;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0px 1px 2px 0px #1018280f;
+
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            // .block1 {
+            //     width: 30%;
+            // }
+            // .block2 {
+            //     width: 60%;
+            // }
+            .block1 {
+                width: 19%;
+            }
+            .block2 {
+                width: 80%;
+            }
+        }
+        .personal-info-2 {
+            border: 1px solid #e9e9e9;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0px 1px 2px 0px #1018280f;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .block1 {
+                display: flex;
+                justify-content: space-between;
+                .block {
+                    width: 20%;
+                }
+            }
+            .block2 {
+                display: flex;
+                justify-content: space-between;
+                .block {
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+
+.patients-physician-container {
+    .block {
+        width: 30%;
+    }
+
+    .physcian-block-1 {
+        display: flex;
+        width: 100%;
+    }
+    .physcian-block-2 {
+        display: flex;
+        width: 100%;
+    }
+}
+.physician-order {
+    .physcian-block-1 {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        .nurse-services {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .physcian-block-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .physician-sign {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        .block {
+            width: 30%;
+        }
+    }
+}
+
+.update-patient {
+    .information {
+        display: flex;
+        justify-content: space-between;
+        .block {
+            width: 45%;
+        }
+    }
+}

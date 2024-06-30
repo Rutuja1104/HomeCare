@@ -1,0 +1,52 @@
+.drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.drawer-title {
+  padding: 10px;
+}
+
+.filters {
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 700px;
+  overflow-y: auto;
+  display: flex;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.filter-types-section {
+  padding: 10px;
+  width: 50%;
+}
+
+.filter-options {
+  width: 50%;
+  padding: 10px;
+  border-left: 1px solid #d2d2d2;
+}
+.button-section {
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.selected {
+  background-color: #d7f2ff;
+  color: #087d9e;
+}
+.filter-type {
+  padding: 20px;
+}
+
+.filter-type2 {
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}

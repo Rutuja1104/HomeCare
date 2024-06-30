@@ -1,0 +1,19 @@
+.nav-tabs {
+  font-size: 14px;
+  font-weight: 600;
+
+  .nav-item {
+    cursor: 'pointer' !important;
+    .nav-link {
+      color: #667085;
+      border: none;
+    }
+  }
+
+  .nav-item.active {
+    border-bottom: 2px solid #087d9e !important;
+    .nav-link {
+      color: #087d9e !important;
+    }
+  }
+}

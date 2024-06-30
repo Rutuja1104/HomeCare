@@ -1,0 +1,27 @@
+.date-picker {
+  padding: 10px 12px;
+  width: 100%;
+  border-radius: var(--1, 8px);
+  border: 1px solid var(--grey-40, #d2d2d2);
+  flex: 1 1 0%;
+  max-height: 46px;
+}
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.date-label {
+  font-size: 16px;
+  color: rgb(103, 103, 103);
+  margin-bottom: 8px;
+  line-height: 20px;
+}
+
+.date-picker-error-styles {
+  border: 1px solid var(--grey-40, #e05243);
+  border-radius: var(--1, 8px);
+}

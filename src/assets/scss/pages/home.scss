@@ -1,0 +1,39 @@
+.login-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    // width: 100%;
+    .first-image{
+        display: flex;
+        align-items: stretch;
+        width: 22%;
+        transform: rotate(180deg)
+    }
+    .login-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // margin-top: calc(60px + 10rem);
+        width: 28%;
+
+        .login-button{
+            background-color: #087D9E;
+            color: #F8F8F8;
+        }
+
+        .row-container {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
+            margin-top: 20px; 
+            .emailLink{
+                color: #005C71;
+                font-weight: bold
+            }
+          }
+       
+    }
+    .second-image{
+        width: 22%;
+    }
+}

@@ -1,0 +1,172 @@
+.biller-display-flex {
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.biller-display-flex2 {
+    display: flex;
+    column-gap: 16px;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.biller-display-nopadding {
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.biller-display-flex3{
+    justify-content: flex-start
+}
+
+.biller-display-flex3 {
+    display: flex;
+    column-gap: 16px;
+    padding: 10px 0px;
+}
+
+.biller-patient-details{
+    color: var(--grey-90, #393939);
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.08px;
+}
+
+.biller-button{
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary-shades-90, #087D9E);
+    outline: none;
+    border: none;
+    color:#ffffff
+    // box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.biller-outer-border{
+    border-radius: var(--1, 8px);
+    border: 1px solid var(--grey-30, #E9E9E9);
+    background: var(--White, #FFF);
+    padding: 10px;
+}
+
+.biller-table{
+    width: 100%;
+    color: #727272;
+    border-radius: 0px 0px var(--1, 8px) var(--1, 8px);
+    border-right: 0.8px solid var(--grey-30, #E9E9E9);
+    border-bottom: 0.8px solid var(--grey-30, #E9E9E9);
+    border-left: 0.8px solid var(--grey-30, #E9E9E9);
+    padding: 30px 30px;
+}
+
+.biller-table tr td{
+    padding-right: 100px;
+}
+
+.biller-padding{
+    padding-left: 10px;
+}
+
+.biller-red-header{
+    color: var(--error-80, #B42318);
+    /* Body/Body 5/Semi-Bold */
+    font-family: Figtree;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.12px;
+}
+
+.biller-red-desc{
+    color: var(--error-80, #B42318);
+    /* Body/Body 5/Semi-Bold */
+    font-family: Figtree;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.12px;
+}
+
+.biller-text-h1{
+    color: var(--grey-80, #565656);
+
+    /* Body/Body 2/Semi-Bold */
+    font-family: Figtree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    letter-spacing: 0.144px;
+}
+
+.biller-text-h2{
+    color: var(--grey-70, #727272);
+
+    /* Body/Body 3/Medium */
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.08px;
+}
+
+.biller-text-h3{
+    color: var(--grey-80, #565656);
+    /* Body/Body 5/Medium */
+    font-family: Figtree;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.12px;
+}
+
+.biller-card-header{
+    border-radius: var(--1, 8px) var(--1, 8px) 0px 0px;
+    border: 0.8px solid #E9E9E9;
+    background: var(--grey-10, #F8F8F8);
+    padding: 10px;
+}
+
+.new-Contract-header{
+    border-radius: var(--1, 8px);
+    border: 0.8px solid #E9E9E9;
+    background: var(--grey-10, #F8F8F8);
+    padding: 10px;
+}
+
+.biller-card-item{
+    border-bottom: 0.8px solid var(--grey-30, #E9E9E9);
+    padding: 10px;
+}
+
+.biller-outer-border2{
+    border-radius: 0px;
+    border: 1px solid var(--grey-30, #E9E9E9);
+    background: var(--White, #FFF);
+    padding: 10px;
+}
+
+.biller-new-contract{
+    padding: 20px;
+    height:82vh;
+}
+
+.biller-messages{
+    padding: 10px;
+    border-bottom: 1px solid var(--Grey-30, #E9E9E9);
+background: var(--Grey-10, #F8F8F8);
+}

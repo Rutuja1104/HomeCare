@@ -1,0 +1,24 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-input {
+  padding: 8px 12px;
+  border: none;
+  border-bottom: 1px solid rgb(38, 38, 38);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(38, 38, 38);
+  background: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.calendar-input::placeholder {
+  text-transform: uppercase;
+  color: rgb(171, 169, 169);
+}
+
+.calendar-label {
+  margin-bottom: 0;
+}
